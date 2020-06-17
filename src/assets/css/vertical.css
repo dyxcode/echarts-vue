@@ -1,0 +1,72 @@
+.linechart {
+  height: 80%;
+  width: 100%;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
+.top > p {
+  margin: 0 0.125rem;
+  font-size: 0.25rem;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(103, 191, 231, 0.2),
+    rgba(197, 11, 11, 0.2)
+  );
+}
+.top > p:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.top > p + div {
+  width: 100%;
+  text-align: center;
+}
+.top > p + div * {
+  margin: .025rem 0;
+}
+.top > p + div p {
+  width: auto
+}
+button {
+  color: rgb(21, 2, 36);
+  border: .0125rem #66a9c9 solid;
+	text-align: center;
+	border-radius: .0625rem;
+	box-shadow: 0 0 .0625rem #cccccc inset;
+	background-color: #884343;
+}
+.submit {
+  width: .75rem;
+}
+
+.data-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.data-div * {
+  font-size: 0.1875rem;
+  flex: 0 1 auto;
+}
+.data-div label {
+  text-align: center;
+}
+.data-div button {
+  width: .75rem;
+}
+
+.bottom {
+  position: relative;
+  height: 80%;
+  z-index: 5;
+}
+.content {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,67 @@
+.barchart {
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+.left {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 30%;
+}
+.right {
+  position: relative;
+  text-align: center;
+  padding-top: 0.125rem;
+  width: 70%;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.left > p {
+  margin: 0.125rem 0;
+  font-size: 0.25rem;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(103, 191, 231, 0.2),
+    rgba(197, 11, 11, 0.2)
+  );
+}
+.left > p:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.left > p + div {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+.left > p + div * {
+  margin: .025rem 0;
+}
+button {
+  color: rgb(21, 2, 36);
+  border: .0125rem #66a9c9 solid;
+	text-align: center;
+	border-radius: .0625rem;
+	box-shadow: 0 0 .0625rem #cccccc inset;
+	background-color: #884343;
+}
+.submit {
+  width: 20%;
+}
+
+.data-div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.data-div * {
+  font-size: 0.1875rem;
+  flex: 1 1 auto;
+}
+.data-div label {
+  text-align: center;
+}
